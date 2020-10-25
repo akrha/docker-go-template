@@ -5,6 +5,9 @@ GoLangの実行環境
 ```bash
 $ cd /path/to/docker-go-template
 $ docker-compose build
+$ docker-compose up -d
+
+...
 
 $ docker-compose exec app go run main.go
 ```
